@@ -37,5 +37,7 @@ public class LogProducer extends Thread{
 	    	  e.printStackTrace();
 	      }
 	    }
+	    
+	    producer.close();
 	  }
 }
